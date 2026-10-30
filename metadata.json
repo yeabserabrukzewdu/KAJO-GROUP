@@ -1,0 +1,8 @@
+{
+  "name": "Remix Amin Abdulkadir Hassen Export",
+  "description": "Kajo Group (established 1985 GC, operating illu Import Export) — premier Ethiopian exporter of green bean coffee, spices, pulses, oilseeds, and lithium ore with diversified investments across Ethiopia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

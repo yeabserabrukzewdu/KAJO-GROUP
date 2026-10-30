@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-primary: #2E1E15;       /* Deep roasted coffee brown */
+  --color-brand-espresso: #241710;      /* Dark espresso anchor */
+  --color-brand-roast: #4A3325;         /* Medium roasted coffee brown */
+  --color-brand-mocha: #634838;         /* Warm coffee-mocha body text */
+  --color-brand-olive: #4A5D23;         /* Rich highland olive green */
+  --color-brand-olive-dark: #39481A;    /* Deep olive hover state */
+  --color-brand-olive-sage: #A8B986;    /* Soft sage-olive on dark coffee */
+  --color-brand-olive-tint: #EAEEE0;    /* Botanical olive tint surface */
+  --color-brand-cream: #F6F1E7;         /* Dominant cream beige canvas */
+  --color-brand-parchment: #FAF7F0;     /* Warm parchment card surface */
+  --color-brand-beige: #ECE3D3;         /* Secondary warm beige surface */
+  --color-brand-sand: #DCD0BC;          /* Warm beige hairline border */
+
+  /* Semantic aliases mapped to Olive Green, Cream Beige & Coffee Brown */
+  --color-brand-emerald: #4A5D23;
+  --color-brand-emerald-light: #EAEEE0;
+  --color-brand-gold: #C9B699;
+  --color-brand-gold-light: #EFE7D8;
+  --color-brand-rust: #6B442A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F6F1E7;
+  color: #2E1E15;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
